@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 
+import 'core/routes/router.dart';
+import 'core/themes/theme.dart';
+
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+   MyApp({super.key});
+
+  final _appRouter = AppRouter();
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const Scaffold(),
+      theme: AppTheme.lightTheme,
+      routerConfig: _appRouter.config(),
     );
   }
 }

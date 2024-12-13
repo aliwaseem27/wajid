@@ -55,6 +55,7 @@ lib/
 ├── core/
 │   ├── constants/            # Application-wide constants
 │   ├── themes/               # App themes and styling
+│   ├── routes/               # App routes
 │   └── utils/                # Utility functions and helpers
 ├── features/
 │   ├── authentication/       # Feature for user registration and login

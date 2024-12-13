@@ -50,7 +50,7 @@
 ## Project Structure
 
 The Wajid project is structured for scalability and clean code organization:
-
+```
 lib/
 ├── core/
 │   ├── constants/            # Application-wide constants
@@ -91,7 +91,7 @@ lib/
 │           ├── blocs/        # BLoC classes for notifications
 │           └── screens/      # Notification-related screens
 └── main.dart                 # Entry point of the app
-
+```
 
 ## Contributing
 

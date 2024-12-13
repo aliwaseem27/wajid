@@ -10,9 +10,6 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    // Minimal Item instance
-    final item = Item(id: '123', title: 'Lost Wallet');
-
     // Full Item instance
     final fullItem = Item(
       id: '456',
@@ -29,7 +26,6 @@ class HomeScreen extends StatelessWidget {
       updatedAt: DateTime.now(),
     );
 
-    print(item);
     print(fullItem);
 
     return Scaffold(
